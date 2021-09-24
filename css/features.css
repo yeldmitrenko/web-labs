@@ -36,12 +36,13 @@
     height: 160px;
     line-height: 160%;
     font-size: 16px;
+    padding-right: 15px;
 
 }
 
 .variety__button {
     width: 8rem;
-    background: unset;
+    background: transparent;
 
     display: flex;
     justify-content: space-between;
@@ -188,6 +189,7 @@
     }
 
     .features__inner {
+        padding-top: 50px;
         width: auto;
         margin: auto;
     }
@@ -199,6 +201,7 @@
 
     .features__variety {
         padding-top: 0px;
+        justify-content: center;
     }
 
     .features__variety > * {
@@ -216,6 +219,9 @@
 
     .features__variety > * > * {
         margin: 0;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .features__variety > * > * img {
@@ -223,9 +229,6 @@
     }
 
     .features__variety button {
-        height: 12px;
-        width: auto;
-        background: transparent;
         display: none;
     }
 
@@ -235,8 +238,7 @@
     }
 
     .search__title {
-        margin-top: 0;
-        margin-bottom: 0;
+        margin: 0;
     }
 
 
