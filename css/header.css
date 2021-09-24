@@ -1,35 +1,13 @@
 .header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     font-size: 16px;
 }
 
-.header-figures {
-    margin-left: -100px;
-}
-
-.circle-1 {
-    width: 20px;
-    height: 20px;
-    left: 240px;
-    top: 77px;
-    border-radius: 20px;
-    background: #9C69E2;
-    margin-right: 9px;
-    margin-top: 15px;
-}
-
-.circle-2 {
-    border-radius: 20px;
-    background: #F063B8;
-    width: 20px;
-    height: 35px;
-    margin-right: 121px;
-}
-
-.header-figures ul {
-    display: flex;
+.header__menu {
+    display: none;
+    width: 32px;
+    cursor: pointer;
 }
 
 .header__nav ul{
@@ -40,17 +18,83 @@
     margin-right: 40px;
 }
 
-.header__nav-item:first-child {
+.header__nav-item:hover {
     font-weight: 800;
     color: #212353;
+    line-height: 60%;
 }
 
+.header__image {
+    margin-right: 81px;
+    animation: rotating 9s infinite;
+}
 
 .header__request-demo {
+    margin-left: auto;
+
     border-radius: 50px;
     background: #fff;
     padding: 17px 29px;
-    margin-left: 295px;
-    margin-right: 128px;
     box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+}
+
+.header__menu > img {
+    max-width: 100%;
+}
+.header__menu-icon {
+    width: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        background-color: #E5E5E5;;
+        z-index: 10;
+    }
+    
+    .header__menu {
+        display: block;
+        z-index: 10;
+    }
+
+    .header__request-demo {
+        display: none;
+        margin: 0px;
+    }
+
+    .header__nav {
+        background: #E5E5E5;
+        position: fixed;
+        top: 72px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-top: 0;
+        clip-path: circle(0 at top left);
+        transition: clip-path 0.9s ease-in;
+    }
+
+    .header__nav.open {
+        clip-path: circle(1000px at top);
+    }
+    
+    .header__nav ul {
+        flex-direction: column;
+        padding: 30px 0px;
+    }
+
+    .header__nav .header__nav-item {
+        margin-right: 0px;
+        padding: 20px 0px;
+        font-size: 2rem;
+    }
+
+    .header__image {
+        display: none;
+    }
 }
