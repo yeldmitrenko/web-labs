@@ -1,0 +1,41 @@
+.hero__image {
+    margin-top: 243px;
+    margin-left: -282px
+}
+
+.hero__inner {
+    width: 645px;
+    padding-bottom: 200px;
+    padding-top: 147px;
+}
+
+.hero__paragraph {
+    width: 380px;
+}
+
+.hero__title {
+    font-size: 80px;
+    color: #212353;
+    line-height: 110%;
+    width: 645px;
+}
+
+.hero__paragraph {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.hero__button button {
+    margin-top: 66px;
+    color: #FFFFFF;
+    background-color: #9C69E2;
+    font-size: 18px;
+    width: 170px;
+}
+
+.hero__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
