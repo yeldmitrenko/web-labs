@@ -96,8 +96,8 @@
     }
 
     .footer__title {
+        margin-top: 0px;
         margin-bottom: 0px;
-        margin-top: 0;
     }
     
     .footer__paragraph {
@@ -120,20 +120,16 @@
     .footer__button__demo {
         width: 100%;
         position: relative;
-        top: -110px;
-    
+        top: 90px;
         justify-content: center;
-        margin-right: 0;
-        margin-left: 0;
     }
 
     .footer__button__msg {
         top: -37px;
-
     }
 
     .footer__button__msg img {
         width: 35px;
-        height: 35px;
+        height: 235px;
     }
 }
