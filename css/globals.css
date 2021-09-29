@@ -4,6 +4,11 @@ body {
     background: #E5E5E5;
 }
 
+@media screen and (max-width: 768px) {
+    body {
+        text-align: center;
+    }
+}
 
 a {
     text-decoration: none;
@@ -16,13 +21,21 @@ li {
 
 button {
     border: 0;
+    background: none;
 }
 
 /* Global classes */
 
 .container {
-    margin: 0 auto;
     max-width: 1120px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 0 20px;
+        margin: 0;
+    }
 }
 
 .default-button {

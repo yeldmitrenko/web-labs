@@ -1,8 +1,6 @@
 .features {
     padding-top: 150px;
 }
-
-
 .features__title {
     color: #212353;
     font-size: 40px;
@@ -31,19 +29,38 @@
     color: #212353;
 }
 
-.search__paragraph {
+.feauteres__inner__paragraph {
     width: 220px;
     height: 160px;
     line-height: 160%;
     font-size: 16px;
+    padding-right: 15px;
 
 }
 
-.search__button {
-    background: none;
+.variety__button {
+    width: 8rem;
+    background: transparent;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    color: #212353
+    padding: 0px;
+    font-weight: 800;
+    font-size: 1rem;
+    line-height: 160%;
+    color: #212353;
+}
+
+.vector {
+    height: 10px;
+    width: 24px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+
+.variety__button:hover {
+    border-radius: 1rem;
+    padding: 0px 5px;
 }
 
 .search__inner__text{
@@ -74,20 +91,7 @@
     font-weight: 400;
 }
 
-.default-button__search {
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.005em;
-    color: #212353;
-    background-color: unset;
-}
-.vector {
-    height: 10px;
-    width: 24px;
-    background-color: transparent;
-    background-repeat: no-repeat;
-}
+
 .features__inner {
     width: 1117px;
     text-align: center;
@@ -115,27 +119,12 @@
     font-weight: 400;
 }
 
-.access__paragraph {
-    font-size: 16px;
-    line-height: 160%;
-    width: 220px;
-    height: 160px;
-    margin-right: 20px;
-}
-
 .access__image {
     width: 241px;
     height: 185px;
     margin-left: -115px;
 }
 
-.default-button__access {
-    font-weight: 700;
-    line-height: 160%;
-    letter-spacing: 0.005em;
-    color: #212353;
-    background-color: unset;
-}
 
 .print-out__text {
     background-repeat: no-repeat;
@@ -167,19 +156,6 @@
     font-weight: normal;
 }
 
-.print__paragraph {
-    line-height: 160%;
-}
-
-.default-button__print {
-    font-weight: 600;
-    line-height: 160%;
-    letter-spacing: 0.005em;
-    color: #212353;
-    background-color: unset;
-    padding-top: 55px;
-}
-
 .security__inner {
     background-repeat: no-repeat;
     width: 442px;
@@ -202,17 +178,3 @@
     line-height: 130%;
     color: #212353;
 }
-
-.security__paragraph {
-    line-height: 160%;
-    margin-right: 50px;
-}
-
-.default-button__security {
-    font-weight: 600;
-    line-height: 160%;
-    letter-spacing: 0.005em;
-    color: #212353;
-    background-color: unset;
-    padding-top: 20px;
-} 

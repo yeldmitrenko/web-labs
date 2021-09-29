@@ -1,13 +1,14 @@
+/* helpers */
 @import "./normalze.min.css";
 
+/* globals */
 @import "./globals.css";
+@import "./animations.css";
 
+/* sections */
 @import "./header.css";
-
 @import "./hero.css";
-
 @import "./intro.css";
-
 @import "./features.css";
-
 @import "./footer.css";
+@import "./media_fo_features.css";
