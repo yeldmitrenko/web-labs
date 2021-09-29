@@ -48,12 +48,18 @@
     font-size: 18px;
     width: 170px;
 }
+.hero__button button:hover {
+    color: #9C69E2;
+    background-color: white;
+    border: 1px solid #9C69E2;
+}
+@media screen and (max-width:1372px) {
+    .hero__image{
+        width: 100%;
+    }
+}
 
 @media screen and (max-width: 768px) {
-    .hero {
-        margin-top: 65px;
-    }
-
     .hero__inner {
         padding-bottom: 0;
     }

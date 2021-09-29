@@ -10,7 +10,7 @@
 }
 
 .footer__line {
-    width: 1600px;
+    width: 100%;
     height: 2px;
     background: #9C69E2;
     opacity: 0.2;
@@ -81,6 +81,10 @@
         flex-direction: column;
     }
 
+    .footer__top {
+        display: block;
+    }
+
     .footer__line {
         background: #9c69e2;
         opacity: 0.2;
@@ -112,6 +116,11 @@
     .footer__bottom {
         padding-top: 0;
     }
+
+    .footer__button {
+        padding-top: 20px;
+    }
+
 
     .footer__button__learn-more {
         display: none;

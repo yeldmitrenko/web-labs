@@ -1,8 +1,6 @@
 .features {
     padding-top: 150px;
 }
-
-
 .features__title {
     color: #212353;
     font-size: 40px;
@@ -43,12 +41,10 @@
 .variety__button {
     width: 8rem;
     background: transparent;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px;
-
     font-weight: 800;
     font-size: 1rem;
     line-height: 160%;
@@ -181,62 +177,4 @@
     font-size: 24px;
     line-height: 130%;
     color: #212353;
-}
-
-@media screen and (max-width: 768px) {
-    .features {
-        padding-top: 30px;
-    }
-
-    .features__inner {
-        width: auto;
-        margin: auto;
-    }
-
-    .features__paragraph {
-        margin-left: 0px;
-        width: auto;
-        padding-top: 0px;
-    }
-
-    .features__variety {
-        padding-top: 0px;
-        margin-left: auto;
-        margin-right: auto;
-        width: auto;
-    }
-
-    .features__variety > * {
-        margin-top: 20px;
-        width: 280px;
-        background-position-y: top;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .feauteres__inner__paragraph {
-        font-size: -1.875rem;
-        margin-top: 10px;
-        text-align: left;
-    }
-
-    .features__variety > * > * {
-        margin: 0;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .features__variety > * > * img {
-        display: none;
-    }
-
-    .features__variety > * > * > * {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .search__title {
-        margin: 0;
-        padding-top: 0px;
-    }
 }
