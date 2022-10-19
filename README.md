@@ -1,6 +1,7 @@
 # Lab №2. Advanced landing
 
-## Description: Improve a landing page following the given design (same as previous) by adding full responsiveness and some animation.
+## Description: 
+Improve a landing page following the given design (same as previous) by adding full responsiveness and some animation.
 
 ## Requirements:
 - The website should be partly responsive: required for 320px (iPhone 5s) and 2560px (4K screens).
